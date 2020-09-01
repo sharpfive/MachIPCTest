@@ -31,4 +31,7 @@ typedef struct {
     mach_msg_trailer_t         trailer;
 } msg_format_response_r_t;
 
+void forkAndMap(mach_port_t mach_port);
+void mapMachPort(mach_port_t mach_port);
+
 #endif // _SHM_IPC_COMMON_H_

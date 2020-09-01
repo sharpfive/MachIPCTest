@@ -4,6 +4,10 @@
 #include "shm_ipc_common.h"
 
 int main(int argc, char **argv) {
+
+    forkAndMap(4099);
+    return 0;
+
     kern_return_t            kr;
     msg_format_request_t     send_msg;
     msg_format_response_r_t  recv_msg;

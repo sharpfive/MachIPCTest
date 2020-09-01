@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2F5457BC24FD838800D2AEA1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F5457BB24FD838800D2AEA1 /* main.c */; };
 		2F5457DD24FD84AF00D2AEA1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F5457DC24FD84AF00D2AEA1 /* main.c */; };
+		2FFD5BD824FEC5CC00F701D0 /* shm_ipc_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5BD724FEC5CC00F701D0 /* shm_ipc_common.c */; };
+		2FFD5BD924FEC5CC00F701D0 /* shm_ipc_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5BD724FEC5CC00F701D0 /* shm_ipc_common.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +40,8 @@
 		2F5457C224FD83B600D2AEA1 /* shm_ipc_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shm_ipc_common.h; sourceTree = "<group>"; };
 		2F5457DA24FD84AF00D2AEA1 /* shm_ipc_server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shm_ipc_server; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5457DC24FD84AF00D2AEA1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2FFD5BD624FEC2FD00F701D0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2FFD5BD724FEC5CC00F701D0 /* shm_ipc_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shm_ipc_common.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		2F5457AF24FD838800D2AEA1 = {
 			isa = PBXGroup;
 			children = (
+				2FFD5BD624FEC2FD00F701D0 /* README.md */,
 				2F5457E124FD84DB00D2AEA1 /* shared */,
 				2F5457BA24FD838800D2AEA1 /* shm_ipc_client */,
 				2F5457DB24FD84AF00D2AEA1 /* shm_ipc_server */,
@@ -96,6 +101,7 @@
 		2F5457E124FD84DB00D2AEA1 /* shared */ = {
 			isa = PBXGroup;
 			children = (
+				2FFD5BD724FEC5CC00F701D0 /* shm_ipc_common.c */,
 				2F5457C224FD83B600D2AEA1 /* shm_ipc_common.h */,
 			);
 			path = shared;
@@ -179,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFD5BD824FEC5CC00F701D0 /* shm_ipc_common.c in Sources */,
 				2F5457BC24FD838800D2AEA1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFD5BD924FEC5CC00F701D0 /* shm_ipc_common.c in Sources */,
 				2F5457DD24FD84AF00D2AEA1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
