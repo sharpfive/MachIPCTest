@@ -1,0 +1,1 @@
+This is an Xcode runnable version of the sample code from Section 8.7. Using the Mach VM Interfaces from the OSX System Internals book. No other copyright claimed.
